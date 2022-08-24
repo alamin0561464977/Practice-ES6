@@ -27,3 +27,23 @@ const byDefaultParameters = (num1, num2 = 0) => num1 + num2;
 const total2 = byDefaultParameters(10);
 // console.log(total2);
 // =================================================================
+/*
+4) Write an arrow function where it will do the following:
+    a) It will take an array where the array elements will be the
+    name of your friends
+    b) Check if the length of each element is even, push elements
+    with even length to a new array and return the result
+    Print the result.
+*/
+const friends = ['alamin', 'rakib', 'mehedi', 'ibrahim', 'tome'];
+const friendsName = (friends) => {
+    const newFriends = [];
+    for (let friend of friends) {
+        if (friend.length % 2 === 0) {
+            newFriends.push(friend)
+        }
+    }
+    return newFriends;
+}
+const newFriends = friendsName(friends);
+console.log(newFriends);
