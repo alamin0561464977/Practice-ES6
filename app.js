@@ -30,10 +30,10 @@ const total2 = byDefaultParameters(10);
 /*
 4) Write an arrow function where it will do the following:
     a) It will take an array where the array elements will be the
-    name of your friends
+        name of your friends
     b) Check if the length of each element is even, push elements
-    with even length to a new array and return the result
-    Print the result.
+        with even length to a new array and return the result
+        Print the result.
 */
 const friends = ['alamin', 'rakib', 'mehedi', 'ibrahim', 'tome'];
 const friendsName = (friends) => {
@@ -46,4 +46,17 @@ const friendsName = (friends) => {
     return newFriends;
 }
 const newFriends = friendsName(friends);
-console.log(newFriends);
+// console.log(newFriends);
+// =======================================================================
+/*
+5) Common ES6 interview questions
+
+5.1. What is ES6? Have you ever used anything from ES6?
+5.2. Explain the difference between var, let and const.
+5.3. What is the arrow function, and how to create it?
+5.4. Give an example of an Arrow function in ES6? List down its advantages.
+5.5. Discuss spread operator in ES6 with an example.
+5.6. What do you understand about default parameters?
+5.7. What are template literals in ES6?
+5.8. Tell us the difference between arrow and regular function.
+*/ 
