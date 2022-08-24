@@ -16,4 +16,14 @@ const sentence = `
     I love to code 
     I love to eat biryani
 `;
-console.log(sentence);
+// console.log(sentence);
+// =========================================================
+/*
+3) Write an arrow function that will take 2 parameters: One parameter
+will come from you and the other parameter will be a default
+parameter. Add these two parameters and return the result.
+*/
+const byDefaultParameters = (num1, num2 = 0) => num1 + num2;
+const total2 = byDefaultParameters(10);
+// console.log(total2);
+// =================================================================
